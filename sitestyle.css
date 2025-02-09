@@ -1,0 +1,200 @@
+
+/* Also written with help from: https://www.w3schools.com/cssref/css_selectors.php*/
+
+body 
+{
+    background-color: #fffef9;
+}
+
+/* The following code blocks have been written with some help from the Penpot Inspect Tool: */
+.logintext
+{
+    font-family: 'Sawarabi Gothic';
+    font-size: 50px;
+    font-style: normal;
+    color: #0b8800;
+    font-weight: 400;
+
+    position: absolute;
+    left: 495px;
+    top: 372px;
+    width: 599px;
+    height: 74px;
+}
+
+.smallertext
+{
+    font-family: 'Signika';
+    font-size: 20px;
+    font-style: normal;
+    color: #0b8800;
+    font-weight: 400;
+
+    position: absolute;
+    left: 50px;
+    top: 471px;
+    width: 240px;
+    height: 34px;
+}
+
+.smallertext:hover
+{
+    color: #d0d000;
+}
+
+.smallertext2
+{
+    font-family: 'Signika';
+    font-size: 20px;
+    font-style: normal;
+    color: #086200;
+    font-weight: bold;
+
+    position: absolute;
+    left: 1200px;
+    top: 515px;
+    width: 240px;
+    height: 34px;
+}
+
+.smallertext2:hover
+{
+    color: #a8a800;
+}
+
+
+.accountButton
+{
+    /* Referenced from: https://www.w3schools.com/css/tryit.asp?filename=trycss_buttons_color */
+    background-color: #045B00;
+
+    font-family: 'Signika';
+    font-size: 20px;
+    font-style: normal;
+    color: white;
+    font-weight: 400;
+
+    position: absolute;
+    left: 1150px;
+    top: 490px;
+    width: 240px;
+    height: 34px;
+}
+
+.accountButton:hover
+{
+    background-color: #0ac000;
+    color: white;
+}
+
+.login_background 
+{
+    position: absolute;
+    left: -20px;
+    top: -1px;
+    width: 1460px;
+    height: 457px;
+    background: url("./Grocery Store - Canva.png") no-repeat center center / cover;
+    border-radius: 0px;
+  }
+
+/* Logo created in Canva*/
+.login_logo 
+{
+    position: absolute;
+    left: 471px;
+    top: -1px;
+    width: 465px;
+    height: 465px;
+    background: url("./Logo-1.png") no-repeat center center / cover;
+    border-radius: 0px;
+}
+
+/* Referenced from: https://stackoverflow.com/questions/21506276/how-do-i-make-the-text-box-bigger-in-html-css */
+#loginbox
+{
+    /* Referenced from: https://www.w3schools.com/css/css_form.asp*/
+    border: 1px solid black;
+    border-radius: 4px;
+
+    background-color:#FAFBFF;
+
+    position: absolute;
+    left: 461px;
+    top: 575px;
+    width: 475px;
+    height: 36px;
+}
+
+/* Referenced from: https://stackoverflow.com/questions/21506276/how-do-i-make-the-text-box-bigger-in-html-css */
+#loginbox2
+{
+    /* Referenced from: https://www.w3schools.com/css/css_form.asp*/
+    border: 1px solid black;
+    border-radius: 4px;
+
+    background-color:#FAFBFF;
+
+    position: absolute;
+    left: 461px;
+    top: 650px;
+    width: 475px;
+    height: 36px;
+}
+
+#idLabel
+{
+    font-family: 'Signika';
+    font-size: 30px;
+    font-style: normal;
+    color: black;
+    font-weight: bold;
+
+
+    position: absolute;
+    left: 330px;
+    top: 550px;
+    width: 140px;
+    height: 59px;
+}
+
+#passLabel
+{
+    font-family: 'Signika';
+    font-size: 30px;
+    font-style: normal;
+    color: black;
+    font-weight: bold;
+
+
+   position: absolute;
+    left: 300px;
+    top: 620px;
+    width: 240px;
+    height: 72px;
+}
+
+.loginButton
+{
+     background-color:#61A25C;
+
+     font-family: 'Signika';
+     font-size: 20px;
+     font-style: normal;
+     color: white;
+     font-weight: 400;
+ 
+     position: absolute;
+     left: 559px;
+     top: 750px;
+     width: 280px;
+     height: 40px;
+ }
+ 
+.loginButton:hover
+{
+     background-color: #78e271;
+     color: white;
+}
+
+      
