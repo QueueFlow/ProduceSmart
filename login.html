@@ -1,19 +1,25 @@
 <!DOCTYPE html>
 
 <html>
-
+    
 <head>
+    <!-- Employ the use of the style sheet in this HTML file-->
     <link rel="stylesheet" href="sitestyle.css">
+
+    <!-- Set up tab title -->
     <title> ProduceSmart - Employee Login </title>
 </head>
 
 <body>
+    <!-- Call the respective classes in the style sheet to put in and format the login background, store logo, and 
+     "ACCOUNT LOGIN" text -->
     <div class = "login_background"> </div>
     <div class = "login_logo"> </div>
     <div class = "logintext">
         <p> ACCOUNT LOGIN </p>
     </div>
 
+    <!-- Call the respective class in the style sheet to put in and format the "Forgot Credentials?" and "Create Account" text -->
     <div class = "smallertext">
         <p> Forgot Credentials? </p>
     </div>
@@ -21,14 +27,16 @@
         <p> Create Account </p>
     </div>
     
+    <!-- Call the respective class in the style sheet to put in and format the "Sign In as Customer" button -->
     <button class = "accountButton"> Sign In as Customer </button>
 
     <p id = "idLabel"> ID# </p>
     <input id = "loginbox" type = "text" name = "id"/>
    
     <p id = "passLabel"> Password </p>
-    <input id = "loginbox2" type = "text" name = "password"/>
+    <input id = "loginbox2" type = "password" name = "password"/>
 
+    <!-- Call the respective class in the style sheet to put in and format the "Log In" button -->
     <button class = "loginButton"> Log In </button>
 
 </body>
