@@ -11,7 +11,7 @@ body
 
 /* NOTE: The following code blocks have been written with some help from the Penpot Inspect Tool, which was:
     - used to figure out initial positioning of all elements - any percentages were figured out 
-        independently with some playing around (percentages so as to keep elements in the same place regardless of screen size)
+        independently with some playing around (percentages so as to keep elements in the same place regardless of browser used)
     - used to determine hex values for colors and font size
     
     Penpot Inspect Tool was used on following elements after page mockup was created in the site independently */
@@ -32,8 +32,8 @@ body
 
     /* No matter what, set the text in the middle of the bottom part of the store logo */
     position: absolute;
-    left: 39.5%;
-    top: 47%;
+    left: 36%;
+    top: 45%;
 }
 
 /* For the "Forgot Credentials?" text */
@@ -67,7 +67,7 @@ body
 
     /* No matter what, set the text around the middle of the right side of the screen, centered below the "Sign In as Customer" button */
     position: absolute;
-    left: 85.5%;
+    left: 83.5%;
     top: 61%;
 }
 /* When the cursor hovers over the "Create Account" text, make the font dark yellow */
@@ -92,7 +92,7 @@ body
 
     /* No matter what, set it around the middle of the right side of the screen */
     position: absolute;
-    left: 83%;
+    left: 80%;
     top: 58%;
     /* Make the button 240 by 34 pixels */
     width: 240px;
@@ -153,7 +153,7 @@ body
 
     /* No matter what, have the ID text field at the lower center part of the screen */
     position: absolute;
-    left: 36%;
+    left: 32%;
     top: 70%;
     width: 475px;
     height: 36px;
@@ -168,7 +168,7 @@ body
 
     /* No matter what, have the password text field at the lower center part of the screen, directly under the ID field */
     position: absolute;
-    left: 36%;
+    left: 32%;
     top: 79%;
     width: 475px;
     height: 36px;
@@ -190,7 +190,7 @@ body
 
     /* No matter what, have the "ID#" label line up with the corresponding text field */
     position: absolute;
-    left: 31%;
+    left: 25%;
     top: 67%;
 }
 /* Password */
@@ -202,7 +202,7 @@ body
     font-weight: bold;
     /* No matter what, have the "Password" label line up with the corresponding text field */
     position: absolute;
-    left: 26%;
+    left: 20%;
     top: 76%;
 }
 
@@ -221,7 +221,7 @@ body
  
     /* No matter what, have the button be at the lower center part of the screen, centered a little ways under the credential text fields */
      position: absolute;
-     left: 42%;
+     left: 39%;
      top: 91%;
      /* Make the button 280 by 40 pixels */
      width: 280px;
