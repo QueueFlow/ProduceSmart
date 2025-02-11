@@ -1,0 +1,25 @@
+{
+    "comment": 
+    [
+        "The format of this was referenced from: https://phpunit.de/getting-started/phpunit-12.html",
+        "comment format itself referenced from: https://www.geeksforgeeks.org/how-to-comment-in-json-files/;",
+        "additional requirements appeared from running Composer installation code in bash terminal and",
+        "following further instructions"
+    ],
+    "autoload": 
+    {
+        "classmap": 
+        [
+            "src/"
+        ]
+    },
+    "require-dev": 
+    {
+        "phpunit/phpunit": "^12",
+        "phpunit/php-code-coverage": "^12.0"
+    },
+    "require": {
+        "phpunit/php-invoker": "^6.0",
+        "sebastian/environment": "^8.0"
+    }
+}
